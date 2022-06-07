@@ -25,7 +25,7 @@ defineProps(['location', 'blog', 'twitter', 'company'])
 
         <div class="space-y-2 md:flex md:flex-col">
             <div class="flex space-x-2" :class="{'opacity-30': !twitter}">
-                <svg version="1.1" id="Layer_1" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                <svg version="1.1" id="Layer_1" class="h-6 w-6" fill="gray" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 0 310 310" style="enable-background:new 0 0 310 310;" xml:space="preserve">
                 <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
                 c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783

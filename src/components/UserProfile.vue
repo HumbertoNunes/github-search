@@ -9,7 +9,7 @@ defineProps(['user'])
 </script>
 
 <template>
-    <div class="bg-white rounded-lg shadow-lg p-6 space-y-4" v-if="user">
+    <div class="bg-white rounded-lg shadow-lg p-6 space-y-4 dark:bg-slate-700" v-if="user">
         <Description :name="user.name" :login="user.login" :url="user.avatar_url" :created_at="user.created_at"></Description>
 
         <div class="space-y-4 lg:pl-24">
